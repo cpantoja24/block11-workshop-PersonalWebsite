@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 480px){
+    body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(164, 158, 158);
+    text-align: center;
+}
+
+
+.home {
+    background-color: rgb(121, 206, 234);
+}
+#missionStatement {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#quote {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.footer {
+    background-color: rgb(121, 206, 234);
+    text-align: center;
+}
