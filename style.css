@@ -1,12 +1,19 @@
 
-@media screen and (max-width: 480px){
-    body {
+@media screen and (max-width: 600px){
+    .hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     }
+    #missionStatement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
 }
+
 /* Header for all pages */
 .header {
     display: flex;
@@ -17,41 +24,49 @@
     font-family:'Trebuchet MS';
     font-size: large;
 }
+
 /* Background for all pages */
 .home {
     background-color: rgb(76, 180, 214);
 }
+
 /* Styles the content in first section on the Home Page*/
 #missionStatement {
     display: flex;
     justify-content: space-between;
     padding: 30px; 
 }
+
 /* Styles the text next to the picture on the Home Page */
 #missionText {
     padding-right: 20px;   
 }
+
 /* Styles the quote section on the Home Page */
 #quote {
     text-align: center;
-    font-size: 30px;
+    font-size: .3in;
     font-family: cursive;
 }
+
 /* Footer for all pages*/
 .footer {
     background-color: rgb(76, 180, 214);
     text-align: center;
 }
-/* Styles the description at the top of each page */
+
+/* Styles the description at the top of each page (About, Portfolio, Contact) */
 #pageIntro {
     display: grid;
     text-align: center;
 }
+
 /* Styles the title of each section on the About Page */
 #hobbyTitle {
     font-family: Georgia;
     text-align: center;
     font-size: 20px;
+    font-style: italic;
 }
 /* Styles the content of each section of the About Page*/
 .hobbies {
@@ -59,14 +74,47 @@
     justify-content: space-between;
     padding: 30px;
 }
+
+/* Sizes the images on the About Page */
+#hobbyIMG {
+    height: 200px;
+    width: 300px;
+}
+
 /* Styles the text in each section on the About Page */
 #hobbyText {
     padding-left: 20px;
     padding-right: 10px;
 }
+
 /* Styles each project section on the Portfolio Page */
 .project {
     background: rgb(203, 200, 200);
     text-align: center;
     padding-top: 1px;   
+    border: 2px dashed;
+}
+
+/* Styles the text for the project links on the Portfolio Page */
+#projectLink {
+    font-style: oblique;
+    font-size: large;
+}
+
+/* Styles the form on the Contact Page*/
+form {
+    text-align: center;
+    font-size: 25px
+}
+
+/* Changes the size of the input box for name and email on the Contact Page */
+#smallInput {
+    width: 250px;
+    height: 25px;
+}
+
+/* Changes the szie of the input box for message on the Contact Page */
+#largeInput {
+    width: 250px;
+    height: 75px;
 }
